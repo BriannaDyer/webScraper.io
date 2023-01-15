@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
 # webdriver
-s = Service("C:\\Users\\maria\\Downloads\\chromedriver_win32\\chromedriver.exe")
+s = Service("C:\\Users\\Brianna\\Downloads\\CIS 4O3(PYTHON)\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.get('https://www.worlddata.info/highest-mountains.php')
 # html
